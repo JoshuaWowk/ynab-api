@@ -1,8 +1,8 @@
 {
 	"info": {
 		"_postman_id": "5b90035d-98b6-4058-8ced-cbe1a466d39f",
-		"name": "YNAB _endpoints_1-28-2024",
-		"description": "Our API uses a REST based design, leverages the JSON data format, and relies upon HTTPS for transport. We respond with meaningful HTTP response codes and if an error occurs, we include error details in the response body.  API Documentation is at https://api.ynab.com",
+		"name": "YNAB _Endpoints",
+		"description": "Our API uses a REST based design, leverages the JSON data format, and relies upon HTTPS for transport. We respond with meaningful HTTP response codes and if an error occurs, we include error details in the response body. API Documentation is at [https://api.ynab.com](https://api.ynab.com)\n\nIf you're the type of person who just wants to get up and running as quickly as possible and then circle back to fill in the gaps, these steps are for you:\n\n1. [Sign in to the YNAB web app](https://app.ynab.com/settings) and go to the \"Account Settings\" page and then to the \"Developer Settings\" page.\n    \n2. Under the \"Personal Access Tokens\" section, click \"New Token\", enter your password and click \"Generate\" to get an access token.\n    \n3. Set the collection level variable `accessToken` to the value of that token.\n    \n4. Open the \"list budgets\" endpoint and click send!\n    \n\nThat's it! You just received a list of your budgets in JSON format through the YNAB API. Hooray!",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
