@@ -6293,13 +6293,36 @@
 	"auth": {
 		"type": "bearer",
 		"bearer": {
-			"token": "{{bearerToken}}"
+			"token": "{{accessToken}}"
 		}
 	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "01521165-27e3-46f6-a7cc-ab7c2b524932",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "542d85a0-ee39-4b39-b3c9-1f745a701fd7",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
 	"variable": [
 		{
 			"key": "baseUrl",
-			"value": "https://api.ynab.com/v1"
+			"value": "https://api.ynab.com/v1",
+			"disabled": true
 		}
 	]
 }
